@@ -7,8 +7,7 @@ const router = {
         const pathname = parsedUrl.pathname;
 
         if (pathname === '/') {
-        res.send('Home page!')
-            // controller.homeHandleRequest(req, res);
+            controller.homeHandleRequest(req, res);
         } else if (pathname === '/login') {
             res.send('Login !')
             // controller.loginHandleRequest(req, res);
