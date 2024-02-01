@@ -1,0 +1,64 @@
+body
+{
+	margin: 0 auto;
+	padding: 0 auto;
+	height: 100vh;
+	background: linear-gradient(45deg,#FC354C, #0ABFBC);
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+.navbar {
+    /* background-color: #3498db; */
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.logout-btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.container {
+    margin-top: 60px; /* Pour éviter que le contenu soit caché sous la barre de navigation */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.infoBox {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 30%;
+    height: 250px;
+    text-align: center;
+}
+
+.container-graphic {
+    margin-top: 10px; /* Pour éviter que le contenu soit caché sous la barre de navigation */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.graphicBox {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 5%;
+    border-radius: 10px;
+    margin: 10px;
+    width: 40%;
+    height: 400px;
+    text-align: center;
+}
