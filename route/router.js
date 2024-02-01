@@ -9,17 +9,13 @@ const router = {
         if (pathname === '/') {
             controller.homeHandleRequest(req, res);
         } else if (pathname === '/login') {
-            res.send('Login !')
-            // controller.loginHandleRequest(req, res);
+            controller.loginHandleRequest(req, res);
         } else if (pathname === '/logout') {
-            res.send('Log out!')
-            // controller.logoutHandleRequest(req, res);
+            controller.logoutHandleRequest(req, res);
         } else if (pathname === '/getToken') {
-            res.send('Token!')
-            // controller.getTokenHandleRequest(req, res);
+            controller.getTokenHandleRequest(req, res);
         }else if (pathname === '/getUserDatas') {
-            res.send('Get Datas !')
-            // controller.getUserDatas(req, res);
+            controller.getUserDatas(req, res);
         }
         // } else {
         //     const error = {
